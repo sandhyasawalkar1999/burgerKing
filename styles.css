@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Order{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 22px;
+    background-color: antiquewhite;
+}
+#Order-now{
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(249, 70, 16);
+    color: white;
+    background-image: url(./);
+    border: none;
+    cursor: pointer;
+   
+}
+#Order-now:hover{
+    background-color: darkblue;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(36, 55, 231);
+}
+.burger{
+    border-radius: 10px;
+
+}
